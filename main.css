@@ -34,6 +34,11 @@ h6 {
     box-sizing: border-box;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 1142px;
+}
+
 .wrapper__content {
     margin: 0 auto;
     width: 1142px;
@@ -221,11 +226,16 @@ h6 {
 .news__title {
     margin-bottom: 50px;
 }
-.news__title--light {
+
+.title {
     font-size: 36px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
+}
+
+.title--light {
+    color: #fff;
 }
 
 .news__items {
@@ -317,6 +327,7 @@ h6 {
 }
 
 .about__content {
+    padding: 80px;
     position: absolute;
     left: 357px;
     top: 100px;
@@ -324,12 +335,28 @@ h6 {
     border-radius: 5px;
     width: 785px;
     height: 455px;
+    margin-bottom: 50px;
 }
 
-.footer {
-    margin: auto;
+.about__title {
+    margin-bottom: 37px;
+}
+
+.title--dark {
+    color: #000;
+}
+
+.about__text {
+    font-size: 16px;
+    color: #060606;
+    width: 502px;
+    margin-bottom: 43px;
+}
+
+footer {
     width: 1142px;
     height: 150px;
+    margin-bottom: 0;
 }
 
 .socials__list {
