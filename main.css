@@ -46,8 +46,11 @@ h6 {
 
 .header {
     height: 120px;
-    position: relative;
     margin-bottom: 115px;
+}
+
+.header__container {
+    position: relative;
 }
 
 .logo {
@@ -59,7 +62,7 @@ h6 {
 
 .menu {
     position: absolute;
-    top: 47px;
+    top: 46px;
     left: 438px;
 }
 
@@ -130,7 +133,9 @@ h6 {
     font-weight: bold;
 }
 .offers {
-    margin-bottom: 180px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 157px;
 }
 
 .offers__item {
@@ -142,7 +147,7 @@ h6 {
     border-radius: 5px;
     background: #fff;
     vertical-align: top;
-    padding: 20px;
+    padding: 22px;
 }
 
 .offers__item:last-child {
@@ -152,8 +157,8 @@ h6 {
 .offers__logo {
     position: absolute;
     top: 36px;
+    margin-left: 5px;
     min-height: 76px;
-    margin-bottom: 30px;
 }
 
 .offers__title {
@@ -161,20 +166,20 @@ h6 {
     font-weight: bold;
     color: #000000;
     font-size: 32px;
-    top: 140px;
+    top: 148px;
 }
 
 .offers__features {
     position: absolute;
-    top: 200px;
+    top: 207px;
 }
 
 .offers__feature {
     color: #666;
     font-size: 16px;
-    width: 130px;
+    width: 123px;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 55px;
     vertical-align: top;
 }
 
@@ -189,20 +194,21 @@ h6 {
 
 .offers__description {
     position: absolute;
-    top: 274px;
+    width: 305px;
+    top: 260px;
     color: #666;
 }
 
 .offers__more {
     position: absolute;
-    bottom: 53px;
+    bottom: 68px;
 }
 
 .offers__button {
     border-style: solid;
     border-radius: 35px;
     color: #FF5500;
-    padding: 18px 53px;
+    padding: 16px 53px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
@@ -220,11 +226,12 @@ h6 {
 }
 
 .news {
-    position: relative;
-    margin-bottom: 150px;
+    height: 450px;
+    margin-bottom: 190px;
 }
-.news__title {
-    margin-bottom: 50px;
+
+.news__container {
+    position: relative;
 }
 
 .title {
@@ -239,7 +246,9 @@ h6 {
 }
 
 .news__items {
-    margin-bottom: 50px;
+    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .news__item {
@@ -266,7 +275,7 @@ h6 {
 
 .news__subtitle {
     position: absolute;
-    top: 280px;
+    top: 285px;
     left: 30px;
     font-size: 24px;
     font-weight: 700;
@@ -275,10 +284,15 @@ h6 {
 
 .news__description {
     position: absolute;
-    top: 320px;
+    top: 324px;
     left: 30px;
     width: 442px;
     font-size: 16px;
+}
+
+.paginator {
+    position: absolute;
+    top:551px;
 }
 
 .paginator__box {
@@ -300,7 +314,7 @@ h6 {
 .paginator__item {
     display: inline-block;
     width: 30px;
-    margin-right: 4px;
+    margin-right: 3px;
 }
 
 .paginator__button {
@@ -318,8 +332,12 @@ h6 {
 }
 
 .about {
-    position: relative;
-    margin-bottom: 50px; 
+    height: 500px;
+    margin-bottom: 110px;
+}
+
+.about__container {
+    position: relative;    
 }
 
 .about__img {
@@ -329,8 +347,8 @@ h6 {
 .about__content {
     padding: 80px;
     position: absolute;
-    left: 357px;
-    top: 100px;
+    left: 355px;
+    top: 99px;
     background: #fff;
     border-radius: 5px;
     width: 785px;
@@ -338,7 +356,13 @@ h6 {
     margin-bottom: 50px;
 }
 
+.about__lead {
+    position: relative;
+}
+
 .about__title {
+    position: absolute;
+    top: -10px;
     margin-bottom: 37px;
 }
 
@@ -347,24 +371,55 @@ h6 {
 }
 
 .about__text {
+    position: absolute;
+    top: 63px;
     font-size: 16px;
     color: #060606;
     width: 502px;
     margin-bottom: 43px;
+    line-height: 1.7;
 }
 
-footer {
+.button__about {
+    position: relative;
+    top: 270px;
+    padding: 18px 40px;
+}
+
+
+.footer__container {
+    position: relative;
+}
+
+.menu__footer {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -110px;
+}
+
+.footer {
+    border-color: rgba(255, 255, 255, 0.1);
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    padding-top: 17px;
+    margin-bottom: auto auto auto 0;
     width: 1142px;
     height: 150px;
-    margin-bottom: 0;
+}
+
+.contacts__description {
+    font-size: 11px;
+    color: #9a9a9a;
+    text-align: right;
 }
 
 .socials__list {
-    top: 50px;
+    top: 35px;
     position: absolute;
-    right: 250px;
+    right: 265px;
 }
 
 .socials__item {
     display: inline-block;
+    margin-right: 4px;
 }
