@@ -34,12 +34,9 @@ h6 {
     box-sizing: border-box;
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 1142px;
-}
 
-.wrapper__content {
+
+.wrapper {
     margin: 0 auto;
     width: 1142px;
 }
@@ -422,4 +419,8 @@ h6 {
 .socials__item {
     display: inline-block;
     margin-right: 4px;
+}
+
+.wrapper__background {
+    background: url("/video-production/img/hero.png") center top no-repeat, url("/video-production/img/bottom-pic.png") center bottom 307px no-repeat;
 }
