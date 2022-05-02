@@ -294,38 +294,44 @@ h6 {
 
 .paginator__box {
     position:relative;
-    width: 450px;
+    min-width: 450px;
     left: 380px;
+    text-align: center;
 }
 
 .paginator__display {
     position: absolute;
     font-size: 16px;
+    margin-right: 25px;
 }
 
 .paginator__list {
     position: absolute;
     left: 150px;
+    top: -4px;
 }
 
 .paginator__item {
     display: inline-block;
-    width: 30px;
-    margin-right: 3px;
+    vertical-align: middle;
+    width: 31px;
+    height: 31px;
+    margin-right: 0;
 }
 
 .paginator__button {
-    font-size: 16px;
+    display: block;
     font-weight: 700;
+    text-align: center;
     text-decoration: none;
+    line-height: 32px ;
 }
 
 .paginator__button--active {
     background: #FF5500;
     width: 32px;
     height: 32px;
-    padding: 5px 11px 6px;
-    border-radius: 16px;
+    border-radius: 50%;
 }
 
 .about {
@@ -422,5 +428,5 @@ h6 {
 }
 
 .wrapper__background {
-    background: url("/video-production/img/hero.png") center top no-repeat, url("/video-production/img/bottom-pic.png") center bottom 307px no-repeat;
+    background: url("/video-production/img/hero.png") center top no-repeat, url("/video-production/img/bottom-pic.png") center bottom 225px no-repeat;
 }
