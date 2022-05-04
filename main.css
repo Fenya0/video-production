@@ -329,13 +329,6 @@ h6 {
     line-height: 32px ;
     z-index: 10;
 }
-/* На всякий случай)
-.paginator__button--active{
-    background: #FF5500;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-} */
 
 .paginator__button:hover::before{
     content: '';
