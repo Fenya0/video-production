@@ -320,18 +320,31 @@ h6 {
 }
 
 .paginator__button {
+    position: relative;
     display: block;
     font-weight: 700;
     text-align: center;
     text-decoration: none;
     line-height: 32px ;
+    z-index: 10;
 }
-
-.paginator__button--active {
+/* На всякий случай)
+.paginator__button--active{
     background: #FF5500;
     width: 32px;
     height: 32px;
     border-radius: 50%;
+} */
+
+.paginator__button:hover::before{
+    content: '';
+    position: absolute;
+    background: #FF5500;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    z-index: -10;
+    right: -1px;
 }
 
 .about {
