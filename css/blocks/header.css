@@ -1,0 +1,58 @@
+.header {
+    margin-bottom: 50px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--right {
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-right: 240px;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 51px;
+}
+
+.menu__link {
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #FF3D00;
+}
+
+.contacts {
+    margin-top: 10px;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.contacts__workhours {
+    text-align: right;
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-right: 2px;
+    color: #FF3D00;
+}
