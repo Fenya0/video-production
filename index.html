@@ -4,39 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1142, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/video-production/css/main.css">
     <title>video-production</title>
 </head>
-
 <body>
     <div class="wrapper__background">
         <div class="wrapper">
             <header class="header">
                 <div class="container header__container">
-                    <a href="#" class="logo">
-                        <img src="/video-production/img/logo.png" alt="logo" class="logo__img">
-                    </a>
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Главная</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Услуги</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Отзывы</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <adress class="contacts">
-                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                        <div class="contacts__workhours">График работы</div>
-                    </adress>
+                    <div class="header__col">
+                        <a href="/video-production/index.html" class="logo">
+                            <img src="/video-production/img/logo.png" alt="logo" class="logo__img">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="/video-production/index.html" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/video-production/services.html" class="menu__link">Услуги</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__col header__col--right">
+                        <adress class="contacts">
+                            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                            <div class="contacts__workhours">График работы</div>
+                        </adress>
+                    </div>
                 </div>
             </header>
             <main class="maincontent">
@@ -44,13 +48,13 @@
                     <div class="container hero__container">
                         <h1 class="hero__title">снимем для вас креативное видео</h1>
                         <div class="hero__subtitle">Креативный видеопродакшн полного цикла</div>
-                        <a href="#" class="button">Подробнее</a>
+                        <a href="#" class="button button__hero">Подробнее</a>
                     </div>
                 </section>
                 <section class="offers">
                     <div class="container">
                         <ul class="offers__list">
-                            <li class="offers__item">
+                            <li class="offers__item offer">
                                 <img src="/video-production/img/tv.png" alt="offer logo" class="offers__logo">
                                 <h3 class="offers__title">Реклама</h3>
                                 <ul class="offers__features">
@@ -63,7 +67,7 @@
                                     корпоративного контента.</p>
                                 <div class="offers__more"><a href="#" class="offers__button">Подробнее</a></div>
                             </li>
-                            <li class="offers__item">
+                            <li class="offers__item offer">
                                 <img src="/video-production/img/clapper.png" alt="offer logo" class="offers__logo">
                                 <h3 class="offers__title">Видео-клип</h3>
                                 <ul class="offers__features">
@@ -78,7 +82,7 @@
                                 <div class="offers__more"><a href="#"
                                         class="offers__button offers__button--active">Подробнее</a></div>
                             </li>
-                            <li class="offers__item">
+                            <li class="offers__item offer">
                                 <img src="/video-production/img/film.png" alt="offer logo" class="offers__logo">
                                 <h3 class="offers__title">Свадьба</h3>
                                 <ul class="offers__features">
@@ -163,25 +167,29 @@
                     </div>
                 </section>
             </main>
-            <footer class="footer">
+            <footer class="footer-container">
+                <div class="footer">
                 <div class="container footer__container">
-                    <a href="#" class="logo">
+                    <div class="footer__col">
+                        <a href="/video-production/index.html" class="logo">
                         <img src="/video-production/img/logo.png" alt="logo" class="logo__img">
                     </a>
                     <nav class="menu menu__footer">
                         <ul class="menu-list">
                             <li class="menu__item">
-                                <a href="#" class="menu__link">Главная</a>
+                                <a href="/video-production/index.html" class="menu__link">Главная</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">Услуги</a>
+                                <a href="/services.html" class="menu__link">Услуги</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">Отзывы</a>
+                                <a href="/video-production/services.html" class="menu__link">Отзывы</a>
                             </li>
                         </ul>
                     </nav>
-                    <div class="socials">
+                    </div>
+                    <div class="footer__col footer__col--right">
+                        <div class="socials">
                         <ul class="socials__list">
                             <li class="socials__item">
                                 <a href="#" class="socials__link">
@@ -209,9 +217,11 @@
                         <div class="contacts__description">Бесплатный звонок по России</div>
                         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                     </adress>
+                    </div>
+                    
                 </div>
+            </div>
             </footer>
-
         </div>
     </div>
 </body>
