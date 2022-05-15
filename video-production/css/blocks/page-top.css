@@ -1,0 +1,39 @@
+.page-top__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    padding-bottom: 30px;
+}
+
+.page-title {
+    font-weight: 800;
+    font-size: 72px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 23px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__link {
+    color: #9A9A9A;
+}
+
+.breadcrumbs__link--active {
+    font-weight: 700;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item::after {
+    content: '/';
+    color: #9a9a9a;
+    margin-right: 3px;
+}
+
+.breadcrumbs__item:last-child::after {
+    content: none;
+}

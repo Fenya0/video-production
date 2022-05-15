@@ -1,0 +1,52 @@
+.paginator {
+    position: absolute;
+    top: 548px;
+    left: 380px;
+}
+
+.paginator__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginator__display {
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.paginator__list {
+    display: flex;
+    align-items: center;
+    left: 150px;
+    top: -4px;
+}
+
+.paginator__item {
+    vertical-align: middle;
+    width: 31px;
+    height: 31px;
+    margin-right: 3px;
+}
+
+.paginator__button {
+    position: relative;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    z-index: 10;
+}
+
+.paginator__button:hover::before {
+    content: '';
+    position: absolute;
+    background: #FF5500;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    z-index: -10;
+    right: -1px;
+}
