@@ -25,10 +25,18 @@
     margin-top: 10px;
 }
 
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .menu__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 51px;
+    margin-right: 56px;
+    margin-top: 6px;
+}
+
+.menu__item__footer {
+    margin-bottom: 10px;
 }
 
 .menu__link {

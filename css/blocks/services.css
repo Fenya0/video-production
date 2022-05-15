@@ -43,26 +43,8 @@
     line-height: 1.7;
 }
 
-.service__button {
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 35px;
-    color: #FF5500;
-    padding: 16px 53px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.service__button--active {
-    border-style: none;
-    border-radius: 35px;
-    background: #FF5500;
-    color: #fff;
-    padding: 18px 53px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
+.services__button {
+    width: 190px;
 }
 
 .services__paginator {
