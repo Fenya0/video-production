@@ -51,6 +51,10 @@ img {
     min-height: 100%;
 }
 
+.wrapper__content { 
+    flex: 1;
+}
+
 .container {
     margin: 0 auto;
     width: 1142px;

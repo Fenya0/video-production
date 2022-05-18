@@ -3,10 +3,11 @@
     border-style: solid;
     border-radius: 35px;
     color: #FF5500;
-    padding: 16px 53px;
+    padding: 16px 52px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .button--active {
@@ -14,20 +15,29 @@
     border-radius: 35px;
     background: #FF5500;
     color: #fff;
-    padding: 18px 53px;
+    padding: 18px 52px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
 }
 
-.paginator__button__inner {
-    color: #000;
+.button--grey {
+    border-style: none;
+    border-radius: 35px;
+    background: #8E8E8E;
+    color: #fff;
+    padding: 18px 52px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.paginator__display__inner {
-    color: #000;
-}
-
-.paginator__button__inner:hover{
+.button:hover {
+    background: #FF3D00;
     color: #fff;
 }
+
+.button--grey:hover {
+    background: #2B2B2B;
+}
+

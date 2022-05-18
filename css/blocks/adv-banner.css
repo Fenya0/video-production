@@ -1,0 +1,24 @@
+.adv-banner {
+    background: #373737 url("/video-production/img/party.png") right top no-repeat;
+    height: 363px;
+}
+
+.adv__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    height: 363px;
+}
+
+.adv__title {
+    margin-left: 8px;
+    width: 560px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.adv__feature {
+    color: #FF5500;
+}

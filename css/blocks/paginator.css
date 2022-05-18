@@ -50,3 +50,15 @@
     z-index: -10;
     right: -1px;
 }
+
+.paginator__button__inner {
+    color: #000;
+}
+
+.paginator__display__inner {
+    color: #000;
+}
+
+.paginator__button__inner:hover{
+    color: #fff;
+}
