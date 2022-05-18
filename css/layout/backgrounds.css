@@ -2,7 +2,6 @@
 .wrapper__background {
     background: url("/video-production/img/hero.png") center top -20px no-repeat, url("/video-production/img/bottom-pic.png") center bottom 225px no-repeat;
     z-index: 100;
-    height: 100%;
 }
 
 .wrapper__inner-background {

@@ -38,7 +38,6 @@
     font-size: 18px;
     color: #1A1B1E;
     outline-color: #CCCCCC;
-    outline-style: 1px solid;
 }
 
 .form__input:last-child {
@@ -87,7 +86,8 @@
 
 .controls__tag {
     padding: 9px 15px;
-    border-radius: 25px;
+    border-radius: 25px;    
+    transition: .4s;
 }
 
 .controls__checkbox {

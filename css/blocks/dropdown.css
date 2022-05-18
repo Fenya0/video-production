@@ -1,0 +1,53 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown__menu {
+    left: 0;
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.dropdown:hover .contacts__workhours {
+    text-decoration: none;
+}
+
+.dropdown__menu {
+    position: absolute;
+    margin-right: 0;
+    left: -5000px;
+    opacity: 0;
+}
+.dropdown__triangle {
+    border: 7px solid transparent;
+    width: 0px;
+    height: 0;
+    border-top: 0;
+    border-bottom-color: #FFFFFF;
+    margin-left: 130px;
+    opacity: 0.8;
+    padding-top: 15px;
+    margin-top: -15px;
+}
+
+.dropdown__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 5px;
+    min-height: 70px;
+    width: 160px;
+    opacity: 0.8;
+    margin-left: 30px;
+}
+
+.dropdown__item {
+    color: #1E1F20;
+    font-weight: 700;
+}
+
+.dropdown__item:last-child {
+    font-weight: 600;
+}

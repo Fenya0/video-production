@@ -38,6 +38,7 @@
 
 .social__logo {
     opacity: 0.5;
+    transition: .4s;
 }
 
 .social__logo:hover {

@@ -8,6 +8,7 @@
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
+    transition: .4s;
 }
 
 .button--active {
@@ -19,6 +20,7 @@
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
+    transition: .4s;
 }
 
 .button--grey {
@@ -30,6 +32,7 @@
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
+    transition: .4s;
 }
 
 .button:hover {

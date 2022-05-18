@@ -42,6 +42,7 @@
 
 .menu__link {
     text-decoration: none;
+    transition: .4s;
 }
 
 .menu__link:hover {
@@ -64,4 +65,9 @@
     margin-top: -10px;
     margin-right: 2px;
     color: #FF3D00;
+}
+
+.contacts__workhours:hover {
+    text-decoration: none;
+    transition-duration: 1s;
 }
