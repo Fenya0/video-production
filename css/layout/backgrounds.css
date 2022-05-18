@@ -4,7 +4,7 @@
     z-index: 100;
 }
 
-.wrapper__services-background {
+.wrapper__inner-background {
     background: url("/video-production/img/top-line.png") center top -20px no-repeat;
     height: 100%;
     width: 100%;
