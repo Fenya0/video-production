@@ -38,17 +38,15 @@
     text-decoration: none;
     line-height: 32px;
     z-index: 10;
-}
-
-.paginator__button:hover::before {
-    content: '';
-    position: absolute;
-    background: #FF5500;
+    transition: .2s;
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    z-index: -10;
-    right: -1px;
+}
+
+.paginator__button:hover {
+    background-color: #FF5500;
+    border-radius: 50%;
 }
 
 .paginator__button__inner {
