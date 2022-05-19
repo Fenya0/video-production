@@ -11,10 +11,24 @@
 }
 
 .central {
+    height: 643px;
+    width: 1128px;
+    background: url(/video-production/img/rec.png) center bottom no-repeat;   
+    background-origin: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    animation: rotateIn 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.76s;  
 }
 
 .central__logo {
@@ -28,15 +42,17 @@
     padding: 20px 58px;
 }
 
-.central--video {
-    opacity: 1;
-    animation: rotateIn 1s;
-    animation-fill-mode: forwards;
-}
-
 @keyframes rotateIn {
     from {
-        transform: scale(0.1) rotate(30deg);
+        transform: translateY(50%) scale(0.2) rotate(30deg);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0) scale(1) rotate(-15deg);
+    }
+    72% {
+        transform: translateY(0) scale(1) rotate(5deg);
     }
     to {
     opacity: 1;
